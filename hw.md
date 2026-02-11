@@ -1,18 +1,18 @@
 Hello!
 
-Welcome to LMT Defense junior developer homework! 
+Welcome to LMT Defence junior developer homework! 
 Best of luck and may the force be with you!
 
-Some notes before we you start:
+Some notes before you start:
 
 1. AI use is ok, but be aware we will ask what specific lines of code mean and do. 
     So DO understand what AI writes.
     I highly suggest writing code on your own!
 2. If something is not clear ask Dace and she will forward the questions
 3. Please add a comment where AI was used
-4. Add a comment with source if you use something from internet 
+4. Add a comment with source if you use code samples from internet 
 
-Expected outcome is containerized Python application
+Expected outcome is a containerized Python application
 
 Recommended tech to use:
 1. Docker
@@ -32,14 +32,14 @@ You have to build a threat classification and interception application. You know
 
 You also know that Latvia has 4 types of air defense solutions
 
-1. Interceptor drone, Speed 80 m/s, range of operations: 30 000 m,  max altitude 2000m, price: 10 000 EUR
-2. Fighter jet, Speed 700 m/s, range of operations  3500 m, max altitude 15 000m, price per minute 1 000 EUR
-3. Rocket, Speed 1500 m/s, range of operations 100 000, max altitude 30 000, price 300 000EUR
-4. 50Cal, Speed 900 m/s, rang of operations 2000m, max altitude 2000m, price 1eur per shot
+1. Interceptor drone, Speed 80 m/s, range of operations: 30 000 m,  max altitude 2000 m, price: 10 000 EUR
+2. Fighter jet, Speed 700 m/s, range of operations  3500 m, max altitude 15 000 m, price per minute 1 000 EUR
+3. Rocket, Speed 1500 m/s, range of operations 100 000 m, max altitude 30 000 m, price 300 000 EUR
+4. 50Cal, Speed 900 m/s, range of operations 2000 m, max altitude 2000 m, price 1 eur per shot
 
 
 You know that:
-* Riga, has all types of counter defense
+* Riga has all types of counter defense
 * Daugavpils lacks Fighter jet
 * Liepaja has only Interceptor drone and 50Cal.
 
@@ -47,12 +47,12 @@ Your mission, should you choose to accept it:
 
 Is to write a software that runs in a containerized environment (Docker) and responds to threats. 
 Your system should be able to accept data from radar systems and choose the best (most cost effective, or the only feasible) way to intercept the threat. 
-(let not a shoot a Rocker from Daugavpils to strike down cheap drone near Liepaja)
-(lets not bring a fighter jet from Riga to strike down cheap drone new Daugavpils)
+(let's not shoot a Rocket from Daugavpils to strike down a cheap drone near Liepaja)
+(let's not bring a fighter jet from Riga to strike down a cheap drone near Daugavpils)
 
 System should classify threat based on flying altitude and speed. 
-If the speed is below 15 m/s or flying altitude is below 200m we can assume it is no a threat
-If the speed is is above 15 m/s it is caution
+If the speed is below 15 m/s or flying altitude is below 200 m we can assume it is not a threat
+If the speed is above 15 m/s it is caution
 If the speed is above 50 m/s it is a threat
 All other cases should be classified as potential threat
 
@@ -73,8 +73,8 @@ Sample of radar system data. Radar system will send a new data every 1 second.
 
 
 So what do I expect:
-1. a decent documentation how to run it, don't forget we use lots of linux and macs. Windows rarely.
-2. the locations and interceptors should be read from SQL database
+1. A decent documentation on how to run it, don't forget we use lots of Linux and Macs. Windows rarely.
+2. The locations and interceptors should be read from an SQL database
 3. A working debugger in .vscode so we can walk trough the code together
 4. Unit tests that validate your functions / methods, so I can quickly check if they make sense.
 5. System has fully functional API (fastAPI)
