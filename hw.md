@@ -30,12 +30,11 @@ So brief description.
 
 You have to build a threat classification and interception application. You know that Latvia has three imaginary counter unmanned air system bases.
 1. One in Riga (56.97475845607155, 24.1670070219384)
-2. One in Liepāja (56.516083346891044, 21.0182217849017)
-3. One in Daugavpils (55.87409588616014, 26.51864225209475)
+The Range of Radar system is 100km (radius)
 
 You also know that Latvia has 4 types of air defense solutions
 
-1. Interceptor drone, Speed 80 m/s, range of operations: 3 0000 m,  max altitude 2000 m, price: 10 000 EUR
+1. Interceptor drone, Speed 80 m/s, range of operations: 30 000 m,  max altitude 2000 m, price: 10 000 EUR
 2. Fighter jet, Speed 700 m/s, range of operations  3500 000 m, max altitude 15 000 m, price per minute 1 000 EUR
 3. Rocket, Speed 1500 m/s, range of operations 1000 0000 m, max altitude 300 000 m, price 300 000 EUR
 4. 50Cal, Speed 900 m/s, range of operations 2 000 m, max altitude 2000 m, price 1 eur per shot
@@ -43,8 +42,6 @@ You also know that Latvia has 4 types of air defense solutions
 
 You know that:
 * Riga has all types of counter defense
-* Daugavpils lacks Fighter jet
-* Liepaja has only Interceptor drone and 50Cal.
 
 Your mission, should you choose to accept it:
 
