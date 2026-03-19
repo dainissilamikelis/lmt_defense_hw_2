@@ -22,7 +22,7 @@ Recommended tech to use:
 2. Python 3.16 or newer 
 3. FastAPI 
 6. PyTest
-4. SQL (Any SQL database acceptable)
+4. SQL (Any SQL database acceptable) (sql lite suggested)
 5. VSCODE
 
 
