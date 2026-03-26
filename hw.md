@@ -19,7 +19,7 @@ Expected outcome is a **containerized Python application**
 
 Recommended tech to use:
 1. Docker
-2. Python 3.16 or newer 
+2. Python 3.12 or newer 
 3. FastAPI 
 6. PyTest
 4. SQL (Any SQL database acceptable) (sql lite suggested)
@@ -28,7 +28,7 @@ Recommended tech to use:
 
 So brief description.
 
-You have to build a threat classification and interception application. You know that Latvia has three imaginary counter unmanned air system bases.
+You have to build a threat classification and interception application. You know that Latvia has one imaginary counter unmanned air system bases.
 1. One in Riga (56.97475845607155, 24.1670070219384)
 The Range of Radar system is 100km (radius)
 
@@ -47,8 +47,6 @@ Your mission, should you choose to accept it:
 
 Is to write a software that runs in a containerized environment (Docker) and responds to threats. 
 Your system should be able to accept data from radar systems and choose the best (most cost effective, or the only feasible) way to intercept the threat. 
-(let's not shoot a Rocket from Daugavpils to strike down a cheap drone near Liepaja)
-(let's not bring a fighter jet from Riga to strike down a cheap drone near Daugavpils)
 
 
 System should classify threat based on flying altitude and speed. 
